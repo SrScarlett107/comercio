@@ -30,6 +30,16 @@
                 </tr>
 
             </thead>
+            <tbody>
+                <tr th:each="produto : ${listaDeProdutos}">
+                    <td th:text="${produto.id}"></td>
+                    <td th:text="${produto.nome}"></td>
+                    <td th:text="${produto.descricao}"></td>
+                    <td th:text="${produto.codigoBarras}"></td>
+                    <td th:text="${produto.preco}"></td>
+                    <td><a href="#">Editar</a></td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </main>
