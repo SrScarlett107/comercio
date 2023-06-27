@@ -24,6 +24,7 @@ public class LojaController {
 		p1.setCodigoBarras("hghgsg");
 		p1.setDescricao("quente");
 		p1.setPreco(12.50);
+		p1.setCodStatus(true);
 		
 		
 		Produto p2 = new Produto();
@@ -32,6 +33,7 @@ public class LojaController {
 		p2.setCodigoBarras("515151");
 		p2.setDescricao("Dyvo");
 		p2.setPreco(12.50);
+		p2.setCodStatus(false);
 		
 		listaDeProdutos.add(p1);
 		listaDeProdutos.add(p2);
